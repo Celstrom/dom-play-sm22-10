@@ -1,33 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Title Goes Here</title>
+     <title>DOM Play</title>
   <meta charset="utf-8" />
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/nav.css" />
+  <style>
+    /*
+    #play span{
+        background-color: yellow
+            }  
+    */
+    </style>
  </head>
  <body>
      <header>
-     <h1>Title Goes Here</h1>
+     <h1>DOM Play LOTR</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
-            <a href="#" target="_blank">Name of project goes here</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>
      </header>
      
    <main class="wrapper">
-    <p>Content goes here</p>
+        <div id="play">
+            <p><span data-actor="Gollum">(with an evil expression) We wants it. We needs it. Must have the precious. They stole it from us. Sneaky little Hobbitses. Wicked. Tricksy. False!</span></p>
+            <p><span data-actor="Smeagol">(sweetly) No. Not master.</span></p>
+            <p><span data-actor="Gollum">Yes, precious. False. They will cheat you, hurt you, LIE.</span></p>
+            <p><span data-actor="Smeagol">Master's my friend!</span></p>
+            <p><span data-actor="Gollum">You don't have any friends. Nobody likes you!</span></p>
+            <p><span data-actor="Smeagol">(covering his ears) Not listening, I'm not listening.</span></p>
+            <p><span data-actor="Gollum">You're a liar and a thief.</span></p>
+            <p><span data-actor="Smeagol">No.</span></p>
+            <p><span data-actor="Gollum">Mur-der-er.</span></p>
+            <p><span data-actor="Smeagol">Go away!</span></p>
+            <p><span data-actor="Gollum">Go away? (Gollum laughed manically as Smeagol began crying)</span></p>
+            <p><span data-actor="Smeagol"> I hate you, I hate you.</span></p>
+            <p><span data-actor="Gollum">Where would you be without me? Gollum! Gollum! I saved us! It was me! We survived because of me! (Smeagol stopped crying)</span></p>
+            <p><span data-actor="Smeagol">Not anymore.</span></p>
+            <p><span data-actor="Gollum">What did you say?</span></p>
+            <p><span data-actor="Smeagol">Master looks after us now. We don't need you.</span></p>
+            <p><span data-actor="Gollum">What?</span></p>
+            <p><span data-actor="Smeagol">Leave now, and never come back!</span></p>
+            <p><span data-actor="Gollum">No!</span></p>
+            <p><span data-actor="Smeagol"> LEAVE NOW AND NEVER COME BACK! (Gollum growled back in frustration) LEAVE NOW AND NEVER COME BACK! (Silence)
+                (Smeagol hesitated and looked around, then realized that Gollum had left, and he began to dance and jump around)
+                We told him to go away. And away he goes, precious! Gone! Gone! Gone! Smeagol is free!</span></p>
+        </div>      
      <footer>
-      <p><small>&copy; 2021 by 
-          YOUR NAME HERE, All Rights Reserved ~ 
+      <p><small>&copy; 2022 by 
+          Colton Elstrom, All Rights Reserved ~ 
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
      </p>
     </footer>
   </main>
   <script src="js/main.js"></script>
+  <script src="js/dom-play.js"></script>
  </body>
 </html>
